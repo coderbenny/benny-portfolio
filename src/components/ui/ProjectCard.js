@@ -19,13 +19,14 @@ export default function ProjectCard({ proj }) {
           boxShadow: isHovered ? 5 : 8,
         },
         marginBottom: 2, // Adding margin bottom here
+        paddingBottom: 1,
       }}
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
       <CardMedia
         component="img"
-        alt="project"
+        alt={proj}
         // height="140"
         className="w-full h-[150px]"
         image="/static/images/cards/contemplative-reptile.jpg"
@@ -35,8 +36,8 @@ export default function ProjectCard({ proj }) {
           {proj}
         </Typography>
         <Typography variant="body2" color="text.secondary">
-          Lizards are a widespread group of squamate reptiles, with over 6,000
-          species, ranging across all continents except Antarctica
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+          non purus eu nulla laoreet dapibus at nec orci.
         </Typography>
       </CardContent>
       <CardActions>
