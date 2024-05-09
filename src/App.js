@@ -1,9 +1,13 @@
+import React from "react";
 import "./App.css";
+// import Header from "./components/ui/Header";
+import Home from "./components/pages/Home";
 
 function App() {
   return (
     <div className="App bg-black h-screen">
-      <h1 className="text-white">My portfolio website</h1>
+      {/* <Header /> */}
+      <Home />
     </div>
   );
 }
