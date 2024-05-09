@@ -1,10 +1,12 @@
 import React from "react";
-import Header from "../ui/Header";
+// import Header from "../ui/Header";
+import ColorTabs from "../ui/ColorTabs";
 
 function Right() {
   return (
     <div className="w-3/4 h-full bg-black text-white">
-      <Header />
+      {/* <Header /> */}
+      <ColorTabs />
     </div>
   );
 }
