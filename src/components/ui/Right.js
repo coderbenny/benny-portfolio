@@ -4,7 +4,7 @@ import ColorTabs from "../ui/ColorTabs";
 
 function Right() {
   return (
-    <div className="w-3/4 h-full bg-black text-white">
+    <div className="w-3/4 h-full bg-teal-300">
       {/* <Header /> */}
       <ColorTabs />
     </div>
