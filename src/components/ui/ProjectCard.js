@@ -6,7 +6,7 @@ import CardMedia from "@mui/material/CardMedia";
 import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 
-export default function ProjectCard() {
+export default function ProjectCard({ proj }) {
   const [isHovered, setIsHovered] = React.useState(false);
 
   return (
@@ -18,6 +18,7 @@ export default function ProjectCard() {
         "&:hover": {
           boxShadow: isHovered ? 5 : 8,
         },
+        marginBottom: 2, // Adding margin bottom here
       }}
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
@@ -31,7 +32,7 @@ export default function ProjectCard() {
       />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">
-          Maleek Visuals
+          {proj}
         </Typography>
         <Typography variant="body2" color="text.secondary">
           Lizards are a widespread group of squamate reptiles, with over 6,000
