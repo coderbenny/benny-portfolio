@@ -10,8 +10,12 @@ function Right() {
         <div className="flex justify-between mt-5">
           <p className="mr-4 text-white rounded-md bg-slate-950 p-1">ReactJs</p>
           <p className="mr-4 text-white rounded-md bg-slate-950 p-1">
+            Javascript
+          </p>
+          <p className="mr-4 text-white rounded-md bg-slate-950 p-1">
             Tailwindcss
           </p>
+          <p className="mr-4 text-white rounded-md bg-slate-950 p-1">Python</p>
           <p className="mr-4 text-white rounded-md bg-slate-950 p-1">Flask</p>
           <p className="mr-4 text-white rounded-md bg-slate-950 p-1">
             SQLAlchemy
