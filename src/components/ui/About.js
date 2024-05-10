@@ -3,7 +3,7 @@ import React from "react";
 function About() {
   return (
     <div className="bottomleft flex-1 w-full">
-      <h3 className="font-semibold text-xl tracking-wide text-center mt-5">
+      <h3 className="font-semibold text-xl tracking-wider text-center mt-5">
         About
       </h3>
       <div className="p-6 w-full">
@@ -14,7 +14,7 @@ function About() {
           </p>
           <br />
           <p className="mb-7">
-            I am fuelled by the thrill of problem solving and the satisfaction
+            Always fuelled by the thrill of problem solving and the satisfaction
             of bringinng ideas to life.
           </p>
           <p className="">Nairobi, Kenya.</p>
