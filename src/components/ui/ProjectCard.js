@@ -40,8 +40,7 @@ export default function ProjectCard({ proj }) {
           {proj.title}
         </Typography>
         <Typography variant="body2" color="text.secondary">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-          non purus eu nulla laoreet dapibus at nec orci.
+          {proj.description}
         </Typography>
       </CardContent>
       <CardActions>
