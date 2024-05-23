@@ -9,6 +9,10 @@ import Typography from "@mui/material/Typography";
 export default function ProjectCard({ proj }) {
   const [isHovered, setIsHovered] = React.useState(false);
 
+  // const handleViewSite = (link) => {
+  //   window.open(link, "_blank", "noopener,noreferrer");
+  // };
+
   return (
     <Card
       sx={{
@@ -26,14 +30,14 @@ export default function ProjectCard({ proj }) {
     >
       <CardMedia
         component="img"
-        alt={proj}
+        alt={proj.title}
         // height="140"
         className="w-full h-[150px]"
         image="/static/images/cards/contemplative-reptile.jpg"
       />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">
-          {proj}
+          {proj.title}
         </Typography>
         <Typography variant="body2" color="text.secondary">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
@@ -41,7 +45,15 @@ export default function ProjectCard({ proj }) {
         </Typography>
       </CardContent>
       <CardActions>
-        <Button size="small">Live Link</Button>
+        <Button
+          size="small"
+          component="a"
+          href={proj.live_link}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Live Link
+        </Button>
         <Button size="small">More Details</Button>
       </CardActions>
     </Card>
