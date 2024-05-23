@@ -31,8 +31,8 @@ function Referees() {
   ];
 
   return (
-    <div className="mb-5 p-1">
-      <h2 className="font-bold text-2xl mb-4 text-center">Referees</h2>
+    <div className="mb-5 p-3 bg-white">
+      <h2 className="font-bold text-2xl mb-4">Referees</h2>
       <div className="grid grid-cols-1 mx-auto md:grid-cols-2 gap-1">
         {refs.map((ref, index) => (
           <div className="h-[100px] w-full mb-2 flex">

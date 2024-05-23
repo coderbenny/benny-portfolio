@@ -23,7 +23,7 @@ function EduBg() {
     {
       id: 4,
       institution: "Kideswa Primary School",
-      duration: "Jan 2002 - November 2012",
+      duration: "Jan 2002 - Nov 2012",
       course_title: "Kenya Certificate of Primary Education",
     },
   ];

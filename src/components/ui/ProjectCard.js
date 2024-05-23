@@ -9,10 +9,6 @@ import Typography from "@mui/material/Typography";
 export default function ProjectCard({ proj }) {
   const [isHovered, setIsHovered] = React.useState(false);
 
-  // const handleViewSite = (link) => {
-  //   window.open(link, "_blank", "noopener,noreferrer");
-  // };
-
   return (
     <Card
       sx={{
@@ -53,7 +49,7 @@ export default function ProjectCard({ proj }) {
         >
           Live Link
         </Button>
-        <Button size="small">More Details</Button>
+        {/* <Button size="small">More Details</Button> */}
       </CardActions>
     </Card>
   );

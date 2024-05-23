@@ -24,9 +24,19 @@ function Projects() {
     {
       id: 3,
       title: "Lorna's Cakes & Bakes",
+      image: "/lornascakes.PNG",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse non purus eu nulla laoreet dapibus at nec orci.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse non purus eu nulla laoreet dapibus at nec orci. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
       live_link: "https://lornas-cakes.vercel.app",
+      more_details: null,
+    },
+    {
+      id: 3,
+      title: "Hotel Inizio",
+      image: "/inizio.PNG",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse non purus eu nulla laoreet dapibus at nec orci. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      live_link: "https://inizio-app.vercel.app/",
       more_details: null,
     },
   ];
