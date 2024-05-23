@@ -32,8 +32,8 @@ export default function ProjectCard({ proj }) {
         component="img"
         alt={proj.title}
         // height="140"
-        className="w-full h-[150px]"
-        image="/static/images/cards/contemplative-reptile.jpg"
+        className="w-full h-[200px] object-cover"
+        image={proj.image}
       />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">

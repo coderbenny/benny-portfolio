@@ -6,12 +6,14 @@ function Projects() {
     {
       id: 1,
       title: "Qeja",
+      image: "/qeja.PNG",
       live_link: "https://qeja-frontend.vercel.app",
       more_details: null,
     },
     {
       id: 2,
       title: "Maleek Visuals",
+      image: "/maleek.PNG",
       live_link: "https://maleek-frontend.vercel.app",
       more_details: null,
     },
