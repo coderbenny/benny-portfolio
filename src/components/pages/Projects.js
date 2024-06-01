@@ -5,6 +5,15 @@ function Projects() {
   const projects = [
     {
       id: 1,
+      title: "Django Store Api",
+      image: "/django-store-api.png",
+      live_link: "https://github.com/coderbenny/django-store-api",
+      description:
+        "This is a simple fashion store API that allows one to do the following: get total sales, list of sales, clients, stock, and even create new instances of the same. The Api is powered by a django backend.",
+      more_details: null,
+    },
+    {
+      id: 2,
       title: "Qeja",
       image: "/qeja.PNG",
       live_link: "https://qeja-frontend.vercel.app",
@@ -13,7 +22,7 @@ function Projects() {
       more_details: null,
     },
     {
-      id: 2,
+      id: 3,
       title: "Maleek Visuals",
       image: "/maleek.PNG",
       description:
@@ -22,7 +31,7 @@ function Projects() {
       more_details: null,
     },
     {
-      id: 3,
+      id: 4,
       title: "Lorna's Cakes & Bakes",
       image: "/cakes.png",
       description:
@@ -31,7 +40,7 @@ function Projects() {
       more_details: null,
     },
     {
-      id: 3,
+      id: 5,
       title: "Hotel Inizio",
       image: "/inizio.PNG",
       description:
