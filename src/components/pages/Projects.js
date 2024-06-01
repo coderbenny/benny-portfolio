@@ -36,7 +36,7 @@ function Projects() {
       image: "/cakes.png",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse non purus eu nulla laoreet dapibus at nec orci. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      live_link: "https://lornas-cakes.vercel.app",
+      live_link: "https://lornascakesnbakes.vercel.app",
       more_details: null,
     },
     {
