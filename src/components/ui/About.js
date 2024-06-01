@@ -8,7 +8,7 @@ function About() {
         About Me
       </h3>
       <div className="p-6 w-full">
-        <div className="h-[180px] mb-5 text-center w-full border-2 p-3 rounded-md shadow-md bg-white">
+        <div className="h-[190px] mb-5 text-center w-full border-2 p-3 rounded-md shadow-md bg-white">
           <p className="mb-4">
             I am a passionate software engineer who is always fuelled by the
             thrill of problem solving and the satisfaction of bringinng ideas to
