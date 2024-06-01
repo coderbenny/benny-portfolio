@@ -2,7 +2,7 @@ import React from "react";
 
 function ContactMe() {
   return (
-    <div className="">
+    <div className="h-[550px]">
       {/* <h1 className="font-bold mb-3 text-xl trackind-wider">Contact Me</h1> */}
       <form className="flex flex-col">
         <p className="w-[400px] mb-3 text-gray-600">
@@ -14,14 +14,17 @@ function ContactMe() {
           type="text"
           className="mb-3 w-[400px] px-2"
           placeholder="Enter your name"
+          required
         />
         <input
-          type="text"
+          type="email"
           className="mb-3 w-[400px] px-2"
           placeholder="Enter your email"
+          required
         />
         <textarea
-          placeholder="Enter your message"
+          placeholder="Type your message here..."
+          required
           className="resize-none h-[100px] w-[400px] mb-3 px-2"
         ></textarea>
         <button

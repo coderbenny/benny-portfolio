@@ -4,7 +4,7 @@ import Profile from "./Profile";
 
 function Left() {
   return (
-    <div className="profile-photo h-screen bg-black items-end flex-1 flex-col bg-transparent justify-center p-3 mx-auto">
+    <div className="profile-photo items-end flex-1 flex-col bg-transparent justify-center p-3 mx-auto">
       <Profile />
       <About />
     </div>
