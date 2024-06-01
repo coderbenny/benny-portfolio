@@ -35,7 +35,7 @@ function Projects() {
       title: "Lorna's Cakes & Bakes",
       image: "/cakes.png",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse non purus eu nulla laoreet dapibus at nec orci. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "Lorna;s cakes and bakes is a cake shop website where one can browse cakes that are available, one can also add an item to cart. The frontend is crafted with ReactJS and styled with Tailwindcss.",
       live_link: "https://lornascakesnbakes.vercel.app",
       more_details: null,
     },
