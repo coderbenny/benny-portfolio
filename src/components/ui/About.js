@@ -4,7 +4,7 @@ import RoomIcon from "@mui/icons-material/Room";
 function About() {
   return (
     <div className="bottomleft flex-1 w-full">
-      <h3 className="text-amber-500 font-bold uppercase font-semibold text-2xl tracking-wider text-center mt-5">
+      <h3 className="text-amber-500 font-bold uppercase text-2xl tracking-wider text-center mt-5">
         About Me
       </h3>
       <div className="p-6 w-full">
