@@ -27,8 +27,8 @@ export default function ProjectCard({ proj }) {
       <CardMedia
         component="img"
         alt={proj.title}
-        // height="140"
-        className="w-full h-[200px] object-cover"
+        height="140"
+        // className="w-full object-contain h-[200px]"
         image={proj.image}
       />
       <CardContent>
