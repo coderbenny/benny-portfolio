@@ -28,6 +28,9 @@ function Right() {
           <p className="mr-4 border-gray-500 tracking-wide hover:border-amber-500 text-white cursor-pointer rounded-md border-2 p-1">
             SQLAlchemy
           </p>
+          <p className="mr-4 border-gray-500 tracking-wide hover:border-amber-500 text-white cursor-pointer rounded-md border-2 p-1">
+            Django
+          </p>
         </div>
       </div>
       <div className="bg-gray-300">
