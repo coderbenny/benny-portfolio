@@ -4,14 +4,14 @@ import RoomIcon from "@mui/icons-material/Room";
 function About() {
   return (
     <div className="bottomleft flex-1 w-full">
-      <h3 className="text-amber-500 uppercase font-semibold text-2xl tracking-wider text-center mt-5">
+      <h3 className="text-amber-500 font-bold uppercase font-semibold text-2xl tracking-wider text-center mt-5">
         About Me
       </h3>
       <div className="p-6 w-full">
-        <div className="h-[200px] mb-5 text-center w-full border-2 p-3 text-white rounded-md shadow-md">
+        <div className="h-[200px] mb-5 text-center w-full border-2 p-3 border-amber-500 text-white rounded-md shadow-md">
           <p className="mb-4">
             I am a passionate software engineer who is always fuelled by the
-            thrill of problem solving and the satisfaction of bringinng ideas to
+            thrill of problem solving and the satisfaction of bringing ideas to
             life.
           </p>
           <button
