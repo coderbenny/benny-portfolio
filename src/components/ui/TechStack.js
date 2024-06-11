@@ -18,8 +18,8 @@ export default function TechStack() {
         Python
       </p>
       <p className="flex gap-1 items-center mr-4 border-gray-500 tracking-wide hover:border-amber-500 text-white cursor-pointer rounded-md border-2 p-1">
-        <img src="/flask-logo.png" alt="flask" className="h-5 w-5" />
-        Flask
+        <img src="/flask-logo.png" alt="flask" className="h-5 w-full" />
+        {/* Flask */}
       </p>
       <p className="flex gap-1 items-center mr-4 border-gray-500 tracking-wide hover:border-amber-500 text-white cursor-pointer rounded-md border-2 p-1">
         <img src="/sqlalchemy-logo.jpg" alt="sqlalchemy" className="h-5 w-15" />
