@@ -7,7 +7,7 @@ function Projects() {
       id: 1,
       title: "Django Store Api",
       image: "/django-store-api.png",
-      live_link: "https://github.com/coderbenny/django-store-api",
+      live_link: "https://django-store-api.onrender.com/",
       description:
         "This is a simple fashion store API that allows one to do the following: get total sales, list of sales, clients, stock, and even create new instances of the same. The Api is powered by a django backend.",
       more_details: null,

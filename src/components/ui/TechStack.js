@@ -10,11 +10,15 @@ export default function TechStack() {
         Javascript
       </p>
       <p className="flex gap-1 items-center mr-4 border-gray-500 tracking-wide hover:border-amber-500 text-white cursor-pointer rounded-md border-2 p-1">
-        <img src="/tailwind-css-logo.svg" alt="tailwind" className="h-5 w-5" />
+        <img
+          src="/tailwind-css-logo.svg"
+          alt="tailwind"
+          className="h-5 w-full"
+        />
         Tailwindcss
       </p>
       <p className="flex gap-1 items-center mr-4 border-gray-500 tracking-wide hover:border-amber-500 text-white cursor-pointer rounded-md border-2 p-1">
-        <img src="/Python_logo.png" alt="python" className="h-5 w-5" />
+        <img src="/Python_logo.png" alt="python" className="h-5 w-full" />
         Python
       </p>
       <p className="flex gap-1 items-center mr-4 border-gray-500 tracking-wide hover:border-amber-500 text-white cursor-pointer rounded-md border-2 p-1">
@@ -29,7 +33,7 @@ export default function TechStack() {
         <img
           src="/django-logo-png.png"
           alt="tailwind"
-          className="h-5 w-15 bg-white"
+          className="h-5 w-full bg-white"
         />
         {/* Django */}
       </p>
