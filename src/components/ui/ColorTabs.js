@@ -61,7 +61,7 @@ export default function BasicTabs() {
           <Tab label="Projects" {...a11yProps(0)} />
           <Tab label="Resume" {...a11yProps(1)} />
           <Tab label="Contact ME" {...a11yProps(2)} />
-          <Tab label="Blog" {...a11yProps(3)} />
+          {/* <Tab label="Blog" {...a11yProps(3)} /> */}
         </Tabs>
       </Box>
       <CustomTabPanel value={value} index={0}>
