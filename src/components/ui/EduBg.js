@@ -20,12 +20,12 @@ function EduBg() {
       duration: "Feb 2013 - Dec 2016",
       course_title: "Kenya Certificate of Secondary Education",
     },
-    {
-      id: 4,
-      institution: "Kideswa Primary School",
-      duration: "Jan 2002 - Nov 2012",
-      course_title: "Kenya Certificate of Primary Education",
-    },
+    // {
+    //   id: 4,
+    //   institution: "Kideswa Primary School",
+    //   duration: "Jan 2002 - Nov 2012",
+    //   course_title: "Kenya Certificate of Primary Education",
+    // },
   ];
 
   return (
@@ -36,7 +36,7 @@ function EduBg() {
       {bg.map((res, index) => (
         <div
           key={index}
-          className="shadow-md rounded-md h-[100px] border-2 items-center border-gray-200 mb-3 p-3 w-full hover:shadow-lg bg-white"
+          className="shadow-md rounded-md h-[120px] md:h-[100px] border-2 items-center border-gray-200 mb-3 p-3 w-full hover:shadow-lg bg-white"
         >
           <div className="flex justify-between mb-2">
             <h2 className="font-semibold">{res.institution}</h2>
