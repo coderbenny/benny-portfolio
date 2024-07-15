@@ -4,20 +4,27 @@ function Professional() {
   const resume = [
     {
       id: 1,
+      employer: "Zuri Health Kenya",
+      duration_worked: "July 2024 - To Date",
+      job_title: "V.A.S Engineer",
+      job_status: "Internship",
+    },
+    {
+      id: 2,
       employer: "Al Huda TV Kenya",
       duration_worked: "July 2020 - Nov 2023",
       job_title: "Studio Technical Operator",
       job_status: "Full Time",
     },
     {
-      id: 2,
+      id: 3,
       employer: "Switch TV Kenya",
       duration_worked: "Dec 2019 - Feb 2020",
       job_title: "Studio Technical Operator",
       job_status: "Internship",
     },
     {
-      id: 1,
+      id: 4,
       employer: "Africa 24 Media",
       duration_worked: "May 2018 - Aug 2019",
       job_title: "Audio-Visual Editor",

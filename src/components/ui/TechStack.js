@@ -31,11 +31,11 @@ export default function TechStack() {
       </p>
       <p className="flex gap-1 items-center mr-4 border-gray-500 tracking-wide hover:border-amber-500 text-white cursor-pointer rounded-md border-2 p-1">
         <img
-          src="/django-logo-png.png"
-          alt="tailwind"
+          src="/Firebase_Logo.svg"
+          alt="firebase"
           className="h-5 w-full bg-white"
         />
-        {/* Django */}
+        Firebase
       </p>
     </div>
   );
