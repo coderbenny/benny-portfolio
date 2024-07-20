@@ -6,7 +6,7 @@ function Profile() {
     <div className="flex flex-col items-center justify-center">
       <img
         alt="profile"
-        src="/linkedin_profile.jpeg"
+        src="/prof.jpg"
         className="mt-16 rounded-full w-60 h-60 mb-4 shadow-md shadow-amber-500 hover:shadow-white"
       />
       <div className="flex flex-col text-center mb-5">
