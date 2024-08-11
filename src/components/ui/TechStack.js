@@ -35,7 +35,7 @@ export default function TechStack() {
           alt="firebase"
           className="h-5 w-full bg-white"
         />
-        Firebase
+        {/* Firebase */}
       </p>
     </div>
   );
