@@ -14,20 +14,20 @@ function Projects() {
     },
     {
       id: 2,
-      title: "Django Store Api",
-      image: "/django-store-api.png",
-      live_link: "https://django-store-api.onrender.com/",
-      description:
-        "This is a simple fashion store API that allows one to do the following: get total sales, list of sales, clients, stock, and even create new instances of the same. The Api is powered by a django backend.",
-      more_details: null,
-    },
-    {
-      id: 3,
       title: "Qeja",
       image: "/qeja.PNG",
       live_link: "https://qeja-frontend.vercel.app",
       description:
         "Qeja connects individuals seeking affordable housing and roommates, offering a platform to find shared living spaces. Additionally, it features a community space where users can post updates and interact with one another.",
+      more_details: null,
+    },
+    {
+      id: 3,
+      title: "Django Store Api",
+      image: "/django-store-api.png",
+      live_link: "https://django-store-api.onrender.com/",
+      description:
+        "This is a simple fashion store API that allows one to do the following: get total sales, list of sales, clients, stock, and even create new instances of the same. The Api is powered by a django backend.",
       more_details: null,
     },
     {
