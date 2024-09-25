@@ -5,6 +5,15 @@ function Projects() {
   const projects = [
     {
       id: 1,
+      title: "Talent Nation",
+      image: "/tnation.png",
+      live_link: "https://talentntaion.vercel.com/",
+      description:
+        "TalentNation is a leading online platform connecting job seekers with top employers across various industries. Whether you're searching for the perfect job opportunity or looking to hire talented professionals, TalentNation simplifies the process.",
+      more_details: null,
+    },
+    {
+      id: 2,
       title: "Django Store Api",
       image: "/django-store-api.png",
       live_link: "https://django-store-api.onrender.com/",
@@ -13,7 +22,7 @@ function Projects() {
       more_details: null,
     },
     {
-      id: 2,
+      id: 3,
       title: "Qeja",
       image: "/qeja.PNG",
       live_link: "https://qeja-frontend.vercel.app",
@@ -22,7 +31,7 @@ function Projects() {
       more_details: null,
     },
     {
-      id: 3,
+      id: 4,
       title: "Maleek Visuals",
       image: "/maleek.PNG",
       description:
@@ -31,7 +40,7 @@ function Projects() {
       more_details: null,
     },
     {
-      id: 4,
+      id: 5,
       title: "Lorna's Cakes & Bakes",
       image: "/cakes.png",
       description:
@@ -40,7 +49,7 @@ function Projects() {
       more_details: null,
     },
     {
-      id: 5,
+      id: 6,
       title: "Hotel Inizio",
       image: "/inizio.PNG",
       description:
