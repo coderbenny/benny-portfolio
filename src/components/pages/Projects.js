@@ -7,7 +7,7 @@ function Projects() {
       id: 1,
       title: "Talent Nation",
       image: "/tnation.png",
-      live_link: "https://talentntaion.vercel.com/",
+      live_link: "https://talentnation.vercel.com/",
       description:
         "TalentNation is a leading online platform connecting job seekers with top employers across various industries. Whether you're searching for the perfect job opportunity or looking to hire talented professionals, TalentNation simplifies the process.",
       more_details: null,
