@@ -5,6 +5,15 @@ function Projects() {
   const projects = [
     {
       id: 1,
+      title: "Church Website",
+      image: "/resc.png",
+      live_link: "https://rescuesouls.vercel.app/",
+      description:
+        "This is a church website built with NextJS, Styled with Tailwindcss and DaisyUI.",
+      more_details: null,
+    },
+    {
+      id: 2,
       title: "Talent Nation",
       image: "/tnation.png",
       live_link: "https://talentnation.vercel.app/",
