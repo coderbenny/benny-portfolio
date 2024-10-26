@@ -5,6 +5,15 @@ function Projects() {
   const projects = [
     {
       id: 1,
+      title: "Shoes Marketplace",
+      image: "/cover.png",
+      live_link: "https://shoed.vercel.app/",
+      description:
+        "This is a shoes marketplace where a user can create an account and buy shoes. One can also register as a seller to sell shoes within the site, The website is built using NextJS, Styled with Tailwindcss and DaisyUI.",
+      more_details: null,
+    },
+    {
+      id: 2,
       title: "Church Website",
       image: "/resc.png",
       live_link: "https://rescuesouls.vercel.app/",
@@ -13,7 +22,7 @@ function Projects() {
       more_details: null,
     },
     {
-      id: 2,
+      id: 3,
       title: "Talent Nation",
       image: "/tnation.png",
       live_link: "https://talentnation.vercel.app/",
@@ -22,7 +31,7 @@ function Projects() {
       more_details: null,
     },
     {
-      id: 2,
+      id: 4,
       title: "Qeja",
       image: "/qeja.PNG",
       live_link: "https://qeja-frontend.vercel.app",
@@ -31,7 +40,7 @@ function Projects() {
       more_details: null,
     },
     {
-      id: 3,
+      id: 5,
       title: "Django Store Api",
       image: "/django-store-api.png",
       live_link: "https://django-store-api.onrender.com/",
@@ -40,7 +49,7 @@ function Projects() {
       more_details: null,
     },
     {
-      id: 4,
+      id: 5,
       title: "Maleek Visuals",
       image: "/maleek.PNG",
       description:
@@ -49,7 +58,7 @@ function Projects() {
       more_details: null,
     },
     {
-      id: 5,
+      id: 6,
       title: "Lorna's Cakes & Bakes",
       image: "/cakes.png",
       description:
@@ -58,7 +67,7 @@ function Projects() {
       more_details: null,
     },
     {
-      id: 6,
+      id: 7,
       title: "Hotel Inizio",
       image: "/inizio.PNG",
       description:
