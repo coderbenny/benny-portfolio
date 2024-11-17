@@ -20,30 +20,26 @@ function EduBg() {
       duration: "Feb 2013 - Dec 2016",
       course_title: "Kenya Certificate of Secondary Education",
     },
-    // {
-    //   id: 4,
-    //   institution: "Kideswa Primary School",
-    //   duration: "Jan 2002 - Nov 2012",
-    //   course_title: "Kenya Certificate of Primary Education",
-    // },
   ];
 
   return (
-    <div className="flex flex-col">
-      <h1 className="text-center text-xl font-semibold mb-2">
+    <div className="flex flex-col max-w-4xl mx-auto p-4">
+      <h1 className="text-center text-2xl font-bold mb-6 text-gray-800">
         Education Background
       </h1>
-      {bg.map((res, index) => (
+      {bg.map((res) => (
         <div
-          key={index}
-          className="shadow-md rounded-md h-[120px] md:h-[100px] border-2 items-center border-gray-200 mb-3 p-3 w-full hover:shadow-lg bg-white"
+          key={res.id}
+          className="shadow-md rounded-lg border border-gray-200 bg-white mb-4 p-4 hover:shadow-xl transition-shadow duration-300"
         >
-          <div className="flex justify-between mb-2">
-            <h2 className="font-semibold">{res.institution}</h2>
-            <p className="">{res.duration}</p>
+          <div className="flex flex-wrap justify-between items-center mb-3">
+            <h2 className="text-lg font-semibold text-gray-700">
+              {res.institution}
+            </h2>
+            <p className="text-sm text-gray-500">{res.duration}</p>
           </div>
-          <p className="">
-            <b>Certification: </b>
+          <p className="text-sm text-gray-600">
+            <span className="font-medium">Certification:</span>{" "}
             {res.course_title}
           </p>
         </div>
