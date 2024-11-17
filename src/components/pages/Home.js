@@ -4,7 +4,7 @@ import Right from "../ui/Right";
 
 function Home() {
   return (
-    <div className="flex flex-col md:flex-row">
+    <div className="flex bg-black flex-col md:flex-row">
       <Left />
       <Right />
     </div>
