@@ -5,6 +5,15 @@ function Projects() {
   const projects = [
     {
       id: 1,
+      title: "Ticketpal",
+      image: "/ticketpal.png",
+      live_link: "https://ticketpal.vercel.app/",
+      description:
+        "TicketPal is an intuitive event management platform that streamlines the process of organizing and attending events. Designed for both event organizers and attendees, it features user-friendly functionalities like event creation, ticket sales, and client management. With secure authentication, seamless navigation, and a responsive design, TicketPal ensures a reliable and engaging experience across all devices.",
+      more_details: null,
+    },
+    {
+      id: 2,
       title: "Media & Marketing Consultancy",
       image: "/fc.png",
       live_link: "https://fullcircleworldwide.vercel.app/",
@@ -13,7 +22,7 @@ function Projects() {
       more_details: null,
     },
     {
-      id: 2,
+      id: 3,
       title: "Shoes Marketplace",
       image: "/cover.png",
       live_link: "https://shoed.vercel.app/",
@@ -22,7 +31,7 @@ function Projects() {
       more_details: null,
     },
     {
-      id: 3,
+      id: 4,
       title: "Church Website",
       image: "/resc.png",
       live_link: "https://rescuesouls.vercel.app/",
@@ -31,7 +40,7 @@ function Projects() {
       more_details: null,
     },
     {
-      id: 4,
+      id: 5,
       title: "Talent Nation",
       image: "/tnation.png",
       live_link: "https://talentnation.vercel.app/",
@@ -40,7 +49,7 @@ function Projects() {
       more_details: null,
     },
     {
-      id: 5,
+      id: 6,
       title: "Qeja",
       image: "/qeja.PNG",
       live_link: "https://qeja-frontend.vercel.app",
@@ -49,7 +58,7 @@ function Projects() {
       more_details: null,
     },
     {
-      id: 6,
+      id: 7,
       title: "Django Store Api",
       image: "/django-store-api.png",
       live_link: "https://django-store-api.onrender.com/",
@@ -58,7 +67,7 @@ function Projects() {
       more_details: null,
     },
     {
-      id: 7,
+      id: 8,
       title: "Maleek Visuals",
       image: "/maleek.PNG",
       description:
@@ -67,7 +76,7 @@ function Projects() {
       more_details: null,
     },
     {
-      id: 8,
+      id: 9,
       title: "Lorna's Cakes & Bakes",
       image: "/cakes.png",
       description:
@@ -76,7 +85,7 @@ function Projects() {
       more_details: null,
     },
     {
-      id: 9,
+      id: 10,
       title: "Hotel Inizio",
       image: "/inizio.PNG",
       description:
