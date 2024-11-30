@@ -9,7 +9,7 @@ function Projects() {
       image: "/ticketpal.png",
       live_link: "https://ticketpal.vercel.app/",
       description:
-        "TicketPal is an intuitive event management platform that streamlines the process of organizing and attending events. Designed for both event organizers and attendees, it features user-friendly functionalities like event creation, ticket sales, and client management. With secure authentication, seamless navigation, and a responsive design, TicketPal ensures a reliable and engaging experience across all devices.",
+        "TicketPal is an intuitive event management platform that streamlines the process of organizing and attending events. The website's frontend is built using Nextjs, Redux, the backend using flask and mysql for the database. The website backend is hosted on Google Cloud Platform and served by an Nginx server.",
       more_details: null,
     },
     {
