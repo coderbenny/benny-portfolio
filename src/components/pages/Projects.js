@@ -6,7 +6,7 @@ function Projects() {
     {
       id: 1,
       title: "Gemify",
-      image: "/hg-bg.png",
+      image: "/tnew.png",
       live_link: "https://gemifyke.vercel.app/",
       description:
         "Gemify is a website where you can find hidden gems - cafes and beautiful staycation avenues. You can also create a listing in  the website if you create an account as an admin. The website has been created by NextJS, DaisyUI and TailwindCSS",
