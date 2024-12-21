@@ -6,7 +6,7 @@ function Projects() {
     {
       id: 1,
       title: "Gemify",
-      image: "/tnew.png",
+      image: "/hg-bg.png",
       live_link: "https://gemifyke.vercel.app/",
       description:
         "Gemify is a website where you can find hidden gems - cafes and beautiful staycation avenues. You can also create a listing in  the website if you create an account as an admin. The website has been created by NextJS, DaisyUI and TailwindCSS",
@@ -15,7 +15,7 @@ function Projects() {
     {
       id: 2,
       title: "Ticketpal",
-      image: "/ticketpal.png",
+      image: "/tnew.png",
       live_link: "https://ticketpal.vercel.app/",
       description:
         "TicketPal is an intuitive event management platform that streamlines the process of organizing and attending events. The website's frontend is built using Nextjs, Redux, the backend using flask and mysql for the database. The website backend is hosted on Google Cloud Platform and served by an Nginx server.",
