@@ -9,7 +9,7 @@ function Projects() {
       image: "/arbitredge.png",
       live_link: "arbitredge-coderbennys-projects.vercel.app",
       description:
-        "Arbitredge is a sleek crypto trading platform that lets users track prices, analyze markets, and set custom alerts in real-time. Built with Next.js, Redux Toolkit, and enhanced with AOS animations and Tsparticles for dynamic UI effects.",
+        "Arbitredge is a sleek crypto trading platform that enables users to buy and sell cryptocurrencies with ease. It features real-time price tracking and market analysis, built with Next.js and Redux Toolkit, and enhanced with smooth AOS animations and Tsparticles for a modern, interactive UI.",
       more_details: null,
     },
     {
