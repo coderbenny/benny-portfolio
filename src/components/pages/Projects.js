@@ -9,7 +9,7 @@ function Projects() {
       image: "/og.png",
       live_link: "https://ogtransfer.vercel.app",
       description:
-        "OGTRANSFER is a secure file transfer platform that enables users to send large files up to 20GB effortlessly. Built with Next.js, it features encrypted transfers, smart organization tools, and enterprise-grade security with a clean, responsive interface.",
+        "OGTRANSFER is a secure file transfer platform that enables users to send large files up to 200GB effortlessly. Built with Next.js, it features encrypted transfers, smart organization tools, and enterprise-grade security with a clean, responsive interface.",
       more_details: null,
     },
     {
