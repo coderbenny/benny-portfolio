@@ -50,6 +50,15 @@ function Projects() {
     },
     {
       id: 6,
+      title: "Church Website",
+      image: "/ch.png",
+      live_link: "https://rescuesouls.vercel.app/",
+      description:
+        "This is a church website built with NextJS, Styled with Tailwindcss and DaisyUI.",
+      more_details: null,
+    },
+    {
+      id: 7,
       title: "Ticketpal",
       image: "/tnew.png",
       live_link: "https://ticketpal.vercel.app/",
@@ -58,7 +67,7 @@ function Projects() {
       more_details: null,
     },
     {
-      id: 7,
+      id: 8,
       title: "Media & Marketing Consultancy",
       image: "/fc.png",
       live_link: "https://fullcircleworldwide.vercel.app/",
@@ -67,21 +76,12 @@ function Projects() {
       more_details: null,
     },
     {
-      id: 8,
+      id: 9,
       title: "Shoes Marketplace",
       image: "/cover.png",
       live_link: "https://shoed.vercel.app/",
       description:
         "This is a shoes marketplace where a user can create an account and buy shoes. One can also register as a seller to sell shoes within the site, The website is built using NextJS, Styled with Tailwindcss and DaisyUI.",
-      more_details: null,
-    },
-    {
-      id: 9,
-      title: "Church Website",
-      image: "/resc.png",
-      live_link: "https://rescuesouls.vercel.app/",
-      description:
-        "This is a church website built with NextJS, Styled with Tailwindcss and DaisyUI.",
       more_details: null,
     },
     {
