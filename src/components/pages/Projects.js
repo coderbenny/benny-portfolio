@@ -59,33 +59,6 @@ function Projects() {
     },
     {
       id: 7,
-      title: "Ticketpal",
-      image: "/tnew.png",
-      live_link: "https://ticketpal.vercel.app/",
-      description:
-        "TicketPal is an intuitive event management platform that streamlines the process of organizing and attending events. The website's frontend is built using Nextjs, Redux, the backend using flask and mysql for the database. The website backend is hosted on Google Cloud Platform and served by an Nginx server.",
-      more_details: null,
-    },
-    {
-      id: 8,
-      title: "Media & Marketing Consultancy",
-      image: "/fc.png",
-      live_link: "https://fullcircleworldwide.vercel.app/",
-      description:
-        "A sleek, user-friendly site showcasing Full Circle Media's creative services in videography, photography, and digital marketing. Designed to highlight their portfolio and make client outreach easy and intuitive.",
-      more_details: null,
-    },
-    {
-      id: 9,
-      title: "Shoes Marketplace",
-      image: "/cover.png",
-      live_link: "https://shoed.vercel.app/",
-      description:
-        "This is a shoes marketplace where a user can create an account and buy shoes. One can also register as a seller to sell shoes within the site, The website is built using NextJS, Styled with Tailwindcss and DaisyUI.",
-      more_details: null,
-    },
-    {
-      id: 10,
       title: "Talent Nation",
       image: "/tnation.png",
       live_link: "https://talentnation.vercel.app/",
@@ -94,7 +67,7 @@ function Projects() {
       more_details: null,
     },
     {
-      id: 11,
+      id: 8,
       title: "Qeja",
       image: "/qeja.PNG",
       live_link: "https://qeja-frontend.vercel.app",
@@ -103,12 +76,39 @@ function Projects() {
       more_details: null,
     },
     {
-      id: 12,
+      id: 9,
       title: "Django Store Api",
       image: "/django-store-api.png",
       live_link: "https://django-store-api.onrender.com/",
       description:
         "This is a simple fashion store API that allows one to do the following: get total sales, list of sales, clients, stock, and even create new instances of the same. The Api is powered by a django backend.",
+      more_details: null,
+    },
+    {
+      id: 10,
+      title: "Ticketpal",
+      image: "/tnew.png",
+      live_link: "https://ticketpal.vercel.app/",
+      description:
+        "TicketPal is an intuitive event management platform that streamlines the process of organizing and attending events. The website's frontend is built using Nextjs, Redux, the backend using flask and mysql for the database. The website backend is hosted on Google Cloud Platform and served by an Nginx server.",
+      more_details: null,
+    },
+    {
+      id: 11,
+      title: "Media & Marketing Consultancy",
+      image: "/fc.png",
+      live_link: "https://fullcircleworldwide.vercel.app/",
+      description:
+        "A sleek, user-friendly site showcasing Full Circle Media's creative services in videography, photography, and digital marketing. Designed to highlight their portfolio and make client outreach easy and intuitive.",
+      more_details: null,
+    },
+    {
+      id: 12,
+      title: "Shoes Marketplace",
+      image: "/cover.png",
+      live_link: "https://shoed.vercel.app/",
+      description:
+        "This is a shoes marketplace where a user can create an account and buy shoes. One can also register as a seller to sell shoes within the site, The website is built using NextJS, Styled with Tailwindcss and DaisyUI.",
       more_details: null,
     },
     {
