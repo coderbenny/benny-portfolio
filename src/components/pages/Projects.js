@@ -16,7 +16,7 @@ function Projects() {
       id: 2,
       title: "Arbitredge",
       image: "/arbitredge.png",
-      live_link: "https://arbitredge.com",
+      live_link: "https://crypto-mu-sandy.vercel.app/",
       description:
         "Arbitredge is a sleek crypto trading platform that enables users to buy and sell cryptocurrencies with ease. It features real-time price tracking and market analysis, built with Next.js and Redux Toolkit, and enhanced with smooth AOS animations and Tsparticles for a modern, interactive UI.",
       more_details: null,
