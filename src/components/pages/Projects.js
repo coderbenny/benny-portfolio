@@ -23,6 +23,15 @@ function Projects() {
     },
     {
       id: 3,
+      title: "Gemify",
+      image: "/gemafrica.png",
+      live_link: "https://gemifyke.africa/",
+      description:
+        "Gemify is a website where you can find hidden gems - cafes and beautiful staycation avenues. You can also create a listing in  the website if you create an account as an admin. The website has been created by NextJS, DaisyUI and TailwindCSS. it's flask backend is hosted on GCP",
+      more_details: null,
+    },
+    {
+      id: 4,
       title: "Crypto Tracker Chrome Extension",
       image: "/xtension.png",
       live_link: "https://github.com/coderbenny/crypto-tracker-chrome-xtension",
@@ -31,21 +40,12 @@ function Projects() {
       more_details: null,
     },
     {
-      id: 4,
+      id: 5,
       title: "Playzone Ke",
       image: "/playzone.png",
       live_link: "https://playzoneke.vercel.app/",
       description:
         "Playzone is the ultimate gaming booking platform where you can purchase bundled or single game plays at unbeatable prices. Enjoy exclusive bonuses, discounts while booking your favorite activities like bowling, laser tag, and VR experiences. The website is built using Next.js, TailwindCSS and Redux",
-      more_details: null,
-    },
-    {
-      id: 5,
-      title: "Gemify",
-      image: "/hg-bg.png",
-      live_link: "https://gemifyke.vercel.app/",
-      description:
-        "Gemify is a website where you can find hidden gems - cafes and beautiful staycation avenues. You can also create a listing in  the website if you create an account as an admin. The website has been created by NextJS, DaisyUI and TailwindCSS",
       more_details: null,
     },
     {
