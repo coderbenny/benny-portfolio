@@ -25,7 +25,7 @@ function Projects() {
       id: 3,
       title: "Gemify",
       image: "/gemafrica.png",
-      live_link: "https://gemifyke.africa/",
+      live_link: "https://gemify.africa/",
       description:
         "Gemify is a website where you can find hidden gems - cafes and beautiful staycation avenues. You can also create a listing in  the website if you create an account as an admin. The website has been created by NextJS, DaisyUI and TailwindCSS. it's flask backend is hosted on GCP",
       more_details: null,
