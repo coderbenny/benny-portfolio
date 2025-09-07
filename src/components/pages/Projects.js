@@ -9,7 +9,7 @@ function Projects() {
       image: "/repairhub.png",
       live_link: "https://repairhub.co.ke",
       description:
-        "REPAIRHUB is a website that offers Professional repair services at your fingertips. Its frontend is built with Next.js, tailwindcss abd is well responsive on all devices.",
+        "REPAIRHUB is a website that offers Professional repair services at your fingertips. Its frontend is built with Next.js, tailwindcss and is well responsive on all devices.",
       more_details: null,
     },
     {
