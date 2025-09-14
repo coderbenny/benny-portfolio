@@ -39,7 +39,6 @@ function Projects() {
       more_details: null,
     },
     {
-    {
       id: 5,
       title: "Crypto Tracker Chrome Extension",
       image: "/xtension.png",
