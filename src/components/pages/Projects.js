@@ -21,6 +21,7 @@ function Projects() {
         "Gemify is a website where you can find hidden gems - cafes and beautiful staycation avenues. You can also create a listing in  the website if you create an account as an admin. The website has been created by NextJS, DaisyUI and TailwindCSS. it's flask backend is hosted on GCP",
       more_details: null,
     },
+    {
       id: 3,
       title: "Arbitredge",
       image: "/arbitredge.png",
