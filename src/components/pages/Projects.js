@@ -14,14 +14,13 @@ function Projects() {
     },
     {
       id: 2,
-      title: "Ogtransfer",
-      image: "/og.png",
-      live_link: "https://ogtransfer.vercel.app",
+      title: "Gemify",
+      image: "/gemafrica.png",
+      live_link: "https://gemify.africa/",
       description:
-        "OGTRANSFER is a secure file transfer platform that enables users to send large files up to 200GB effortlessly. Built with Next.js, it features encrypted transfers, smart organization tools, and enterprise-grade security with a clean, responsive interface.",
+        "Gemify is a website where you can find hidden gems - cafes and beautiful staycation avenues. You can also create a listing in  the website if you create an account as an admin. The website has been created by NextJS, DaisyUI and TailwindCSS. it's flask backend is hosted on GCP",
       more_details: null,
     },
-    {
       id: 3,
       title: "Arbitredge",
       image: "/arbitredge.png",
@@ -32,13 +31,14 @@ function Projects() {
     },
     {
       id: 4,
-      title: "Gemify",
-      image: "/gemafrica.png",
-      live_link: "https://gemify.africa/",
+      title: "Ogtransfer",
+      image: "/og.png",
+      live_link: "https://ogtransfer.vercel.app",
       description:
-        "Gemify is a website where you can find hidden gems - cafes and beautiful staycation avenues. You can also create a listing in  the website if you create an account as an admin. The website has been created by NextJS, DaisyUI and TailwindCSS. it's flask backend is hosted on GCP",
+        "OGTRANSFER is a secure file transfer platform that enables users to send large files up to 200GB effortlessly. Built with Next.js, it features encrypted transfers, smart organization tools, and enterprise-grade security with a clean, responsive interface.",
       more_details: null,
     },
+    {
     {
       id: 5,
       title: "Crypto Tracker Chrome Extension",
@@ -61,7 +61,7 @@ function Projects() {
       id: 7,
       title: "Church Website",
       image: "/ch.png",
-      live_link: "https://rescuesouls.vercel.app/",
+      live_link: "https://rescuesouls.org",
       description:
         "This is a church website built with NextJS, Styled with Tailwindcss and DaisyUI.",
       more_details: null,
