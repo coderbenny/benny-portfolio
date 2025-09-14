@@ -41,20 +41,20 @@ function Projects() {
     },
     {
       id: 5,
-      title: "Crypto Tracker Chrome Extension",
-      image: "/xtension.png",
-      live_link: "https://github.com/coderbenny/crypto-tracker-chrome-xtension",
-      description:
-        "Track real-time cryptocurrency prices, set alerts, and view historical data. This Chrome extension provides multi-currency support, email notifications, and an optimized UI for seamless tracking.",
-      more_details: null,
-    },
-    {
-      id: 6,
       title: "Playzone Ke",
       image: "/playzone.png",
       live_link: "https://playzoneke.vercel.app/",
       description:
         "Playzone is the ultimate gaming booking platform where you can purchase bundled or single game plays at unbeatable prices. Enjoy exclusive bonuses, discounts while booking your favorite activities like bowling, laser tag, and VR experiences. The website is built using Next.js, TailwindCSS and Redux",
+      more_details: null,
+    },
+    {
+      id: 6,
+      title: "Crypto Tracker Chrome Extension",
+      image: "/xtension.png",
+      live_link: "https://github.com/coderbenny/crypto-tracker-chrome-xtension",
+      description:
+        "Track real-time cryptocurrency prices, set alerts, and view historical data. This Chrome extension provides multi-currency support, email notifications, and an optimized UI for seamless tracking.",
       more_details: null,
     },
     {
