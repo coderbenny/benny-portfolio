@@ -5,6 +5,24 @@ function Projects() {
   const projects = [
     {
       id: 1,
+      title: "Qeja - House Hunting Platform",
+      image: "/qeja2.0.PNG",
+      live_link: "https://qejav2.vercel.app",
+      description:
+        "Professional house hunting platform that connects clients with verified agents. Features automated agent matching, secure payments, and guaranteed results within 48 hours.",
+      category: "Full Stack",
+      technologies: [
+        "Next.js",
+        "React",
+        "Firebase",
+        "Tailwind CSS",
+        "Framer Motion",
+      ],
+      featured: true,
+      year: "2024",
+    },
+    {
+      id: 2,
       title: "RepairHub",
       image: "/repairhub.png",
       live_link: "https://repairhub.co.ke",
@@ -13,7 +31,7 @@ function Projects() {
       more_details: null,
     },
     {
-      id: 2,
+      id: 3,
       title: "Gemify",
       image: "/gemafrica.png",
       live_link: "https://gemify.africa/",
@@ -22,7 +40,7 @@ function Projects() {
       more_details: null,
     },
     {
-      id: 3,
+      id: 4,
       title: "Arbitredge",
       image: "/arbitredge.png",
       live_link: "https://crypto-mu-sandy.vercel.app/",
@@ -31,7 +49,7 @@ function Projects() {
       more_details: null,
     },
     {
-      id: 4,
+      id: 5,
       title: "Ogtransfer",
       image: "/og.png",
       live_link: "https://ogtransfer.vercel.app",
@@ -40,7 +58,7 @@ function Projects() {
       more_details: null,
     },
     {
-      id: 5,
+      id: 6,
       title: "Playzone Ke",
       image: "/playzone.png",
       live_link: "https://playzoneke.vercel.app/",
@@ -49,7 +67,7 @@ function Projects() {
       more_details: null,
     },
     {
-      id: 6,
+      id: 7,
       title: "Crypto Tracker Chrome Extension",
       image: "/xtension.png",
       live_link: "https://github.com/coderbenny/crypto-tracker-chrome-xtension",
@@ -58,7 +76,7 @@ function Projects() {
       more_details: null,
     },
     {
-      id: 7,
+      id: 8,
       title: "Church Website",
       image: "/ch.png",
       live_link: "https://rescuesouls.org",
@@ -67,7 +85,7 @@ function Projects() {
       more_details: null,
     },
     {
-      id: 8,
+      id: 9,
       title: "Talent Nation",
       image: "/tnation.png",
       live_link: "https://talentnation.vercel.app/",
@@ -76,7 +94,7 @@ function Projects() {
       more_details: null,
     },
     {
-      id: 9,
+      id: 10,
       title: "Qeja",
       image: "/qeja.PNG",
       live_link: "https://qeja-frontend.vercel.app",
@@ -85,7 +103,7 @@ function Projects() {
       more_details: null,
     },
     {
-      id: 10,
+      id: 11,
       title: "Django Store Api",
       image: "/django-store-api.png",
       live_link: "https://django-store-api.onrender.com/",
@@ -94,7 +112,7 @@ function Projects() {
       more_details: null,
     },
     {
-      id: 11,
+      id: 12,
       title: "Ticketpal",
       image: "/tnew.png",
       live_link: "https://ticketpal.vercel.app/",
@@ -103,7 +121,7 @@ function Projects() {
       more_details: null,
     },
     {
-      id: 12,
+      id: 13,
       title: "Media & Marketing Consultancy",
       image: "/fc.png",
       live_link: "https://fullcircleworldwide.vercel.app/",
@@ -112,7 +130,7 @@ function Projects() {
       more_details: null,
     },
     {
-      id: 13,
+      id: 14,
       title: "Shoes Marketplace",
       image: "/cover.png",
       live_link: "https://shoed.vercel.app/",
@@ -121,7 +139,7 @@ function Projects() {
       more_details: null,
     },
     {
-      id: 14,
+      id: 15,
       title: "Maleek Visuals",
       image: "/maleek.PNG",
       description:
@@ -130,7 +148,7 @@ function Projects() {
       more_details: null,
     },
     {
-      id: 15,
+      id: 16,
       title: "Lorna's Cakes & Bakes",
       image: "/cakes.png",
       description:
@@ -139,7 +157,7 @@ function Projects() {
       more_details: null,
     },
     {
-      id: 16,
+      id: 17,
       title: "Hotel Inizio",
       image: "/inizio.PNG",
       description:
