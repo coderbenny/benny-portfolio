@@ -1,81 +1,142 @@
-import * as React from "react";
-import PropTypes from "prop-types";
-import Tabs from "@mui/material/Tabs";
-import Tab from "@mui/material/Tab";
-import Typography from "@mui/material/Typography";
-import Box from "@mui/material/Box";
+import React, { useState } from "react";
+import {
+  FaProjectDiagram,
+  FaFileAlt,
+  FaEnvelope,
+  FaBlog,
+  FaChevronDown,
+} from "react-icons/fa";
 
 import Blog from "../pages/Blog";
 import ContactMe from "../pages/ContactMe";
 import Projects from "../pages/Projects";
 import Resume from "../pages/Resume";
 
-function CustomTabPanel(props) {
-  const { children, value, index, ...other } = props;
+export default function ColorTabs() {
+  const [activeTab, setActiveTab] = useState(0);
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+
+  const tabs = [
+    {
+      label: "Projects",
+      icon: FaProjectDiagram,
+      component: <Projects />,
+      color: "text-blue-500",
+      bgColor: "bg-blue-50",
+      borderColor: "border-blue-500",
+    },
+    {
+      label: "Resume",
+      icon: FaFileAlt,
+      component: <Resume />,
+      color: "text-emerald-500",
+      bgColor: "bg-emerald-50",
+      borderColor: "border-emerald-500",
+    },
+    {
+      label: "Contact",
+      icon: FaEnvelope,
+      component: <ContactMe />,
+      color: "text-purple-500",
+      bgColor: "bg-purple-50",
+      borderColor: "border-purple-500",
+    },
+    // {
+    //   label: "Blog",
+    //   icon: FaBlog,
+    //   component: <Blog />,
+    //   color: "text-orange-500",
+    //   bgColor: "bg-orange-50",
+    //   borderColor: "border-orange-500",
+    // },
+  ];
+
+  const activeTabData = tabs[activeTab];
 
   return (
-    <div
-      role="tabpanel"
-      hidden={value !== index}
-      id={`simple-tabpanel-${index}`}
-      aria-labelledby={`simple-tab-${index}`}
-      {...other}
-    >
-      {value === index && (
-        <Box sx={{ p: 3 }}>
-          <Typography>{children}</Typography>
-        </Box>
-      )}
-    </div>
-  );
-}
+    <div className="w-full">
+      {/* Desktop Tabs */}
+      <div className="hidden md:flex bg-white shadow-lg border-b border-gray-200">
+        <div className="flex w-full max-w-6xl mx-auto">
+          {tabs.map((tab, index) => (
+            <button
+              key={index}
+              onClick={() => setActiveTab(index)}
+              className={`flex-1 flex items-center justify-center gap-3 py-4 px-6 font-semibold text-lg transition-all duration-300 relative group ${
+                activeTab === index
+                  ? `${tab.color} ${tab.bgColor} border-b-4 ${tab.borderColor}`
+                  : "text-gray-600 hover:text-gray-800 hover:bg-gray-50"
+              }`}
+            >
+              <tab.icon
+                className={`text-xl ${
+                  activeTab === index ? tab.color : "text-gray-500"
+                }`}
+              />
+              <span>{tab.label}</span>
+              {activeTab === index && (
+                <div
+                  className={`absolute bottom-0 left-0 right-0 h-1 ${tab.color.replace(
+                    "text-",
+                    "bg-"
+                  )} rounded-t-full`}
+                ></div>
+              )}
+            </button>
+          ))}
+        </div>
+      </div>
 
-CustomTabPanel.propTypes = {
-  children: PropTypes.node,
-  index: PropTypes.number.isRequired,
-  value: PropTypes.number.isRequired,
-};
-
-function a11yProps(index) {
-  return {
-    id: `simple-tab-${index}`,
-    "aria-controls": `simple-tabpanel-${index}`,
-  };
-}
-
-export default function BasicTabs() {
-  const [value, setValue] = React.useState(0);
-
-  const handleChange = (event, newValue) => {
-    setValue(newValue);
-  };
-
-  return (
-    <Box sx={{ width: "100%" }}>
-      <Box sx={{ borderBottom: 1, borderColor: "divider", textColor: "white" }}>
-        <Tabs
-          value={value}
-          onChange={handleChange}
-          aria-label="basic tabs example"
+      {/* Mobile Dropdown */}
+      <div className="md:hidden bg-white shadow-lg border-b border-gray-200">
+        <button
+          onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+          className={`w-full flex items-center justify-between p-4 font-semibold text-lg ${activeTabData.color} ${activeTabData.bgColor}`}
         >
-          <Tab label="Projects" {...a11yProps(0)} />
-          <Tab label="Resume" {...a11yProps(1)} />
-          <Tab label="Contact ME" {...a11yProps(2)} />
-          {/* <Tab label="Blog" {...a11yProps(3)} /> */}
-        </Tabs>
-      </Box>
-      <CustomTabPanel value={value} index={0}>
-        <Projects />
-      </CustomTabPanel>
-      <CustomTabPanel value={value} index={1}>
-        <Resume />
-      </CustomTabPanel>
-      <CustomTabPanel value={value} index={2}>
-        <ContactMe />
-      </CustomTabPanel>
-      <CustomTabPanel value={value} index={3}>
-        <Blog />
-      </CustomTabPanel>
-    </Box>
+          <div className="flex items-center gap-3">
+            <activeTabData.icon className={`text-xl ${activeTabData.color}`} />
+            <span>{activeTabData.label}</span>
+          </div>
+          <FaChevronDown
+            className={`transition-transform duration-300 ${
+              isMobileMenuOpen ? "rotate-180" : ""
+            }`}
+          />
+        </button>
+
+        {isMobileMenuOpen && (
+          <div className="absolute z-10 w-full bg-white shadow-xl border border-gray-200 rounded-b-lg">
+            {tabs.map((tab, index) => (
+              <button
+                key={index}
+                onClick={() => {
+                  setActiveTab(index);
+                  setIsMobileMenuOpen(false);
+                }}
+                className={`w-full flex items-center gap-3 p-4 text-left hover:bg-gray-50 transition-colors duration-200 ${
+                  activeTab === index
+                    ? `${tab.color} ${tab.bgColor}`
+                    : "text-gray-600"
+                }`}
+              >
+                <tab.icon
+                  className={`text-xl ${
+                    activeTab === index ? tab.color : "text-gray-500"
+                  }`}
+                />
+                <span className="font-medium">{tab.label}</span>
+              </button>
+            ))}
+          </div>
+        )}
+      </div>
+
+      {/* Tab Content */}
+      <div className="bg-white p-3">
+        <div className="transition-all duration-300 ease-in-out">
+          {activeTabData.component}
+        </div>
+      </div>
+    </div>
   );
 }

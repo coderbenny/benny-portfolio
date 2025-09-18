@@ -1,24 +1,43 @@
 import React from "react";
-import RoomIcon from "@mui/icons-material/Room";
+import { FaMapMarkerAlt, FaUser, FaCode, FaHeart } from "react-icons/fa";
 
 function About() {
   return (
-    <div className="p-4 w-full">
-      <div className="bottomleft flex-1 w-full">
-        <h3 className="text-amber-500 font-bold uppercase text-2xl tracking-wider text-center mt-5">
-          About Me
-        </h3>
-        <div className="h-[150px] mb-5 text-center w-full border-t-white p-3 shadow-amber-500 text-white rounded-md shadow-md">
-          <p className="mb-4">
-            I am a passionate software engineer who is always fuelled by the
-            thrill of problem solving and the satisfaction of bringing ideas to
-            life.
-          </p>
+    <div className="w-full max-w-md mx-auto">
+      {/* Section Header */}
+      {/* <div className="flex items-center justify-center mb-6">
+        <div className="flex items-center space-x-3">
+          <FaUser className="text-amber-500 text-xl" />
+          <h3 className="text-2xl md:text-3xl font-bold text-amber-500 uppercase tracking-wider">
+            About Me
+          </h3>
         </div>
-        <p className="text-white text-center items-center trackinf-wider">
-          <RoomIcon />
-          Nairobi, Kenya.
-        </p>
+      </div> */}
+
+      {/* About Card */}
+      <div className="bg-gradient-to-br from-gray-800 to-gray-900 rounded-2xl p-6 shadow-2xl border border-gray-700 mb-6 backdrop-blur-sm">
+        <div className="space-y-4">
+          <p className="text-gray-300 leading-relaxed text-center">
+            I am a passionate software engineer who is always fueled by the
+            thrill of problem solving and the satisfaction of bringing ideas to
+            life through code.
+          </p>
+
+          {/* Skills highlight */}
+          <div className="flex items-center justify-center space-x-2 pt-4">
+            <FaCode className="text-amber-500" />
+            <span className="text-gray-400 text-sm">
+              Passionate • Creative • Solution-Oriented
+            </span>
+            <FaHeart className="text-red-500" />
+          </div>
+        </div>
+      </div>
+
+      {/* Location */}
+      <div className="flex items-center justify-center space-x-2 text-gray-300">
+        <FaMapMarkerAlt className="text-amber-500 text-lg" />
+        <span className="font-medium">Nairobi, Kenya</span>
       </div>
     </div>
   );
