@@ -333,7 +333,7 @@ function Projects() {
               <h3 className="font-bold text-lg text-gray-900 mb-1 group-hover:text-blue-600 transition-colors duration-200">
                 {proj.title}
               </h3>
-              <div className="flex items-center gap-2">
+              {/* <div className="flex items-center gap-2">
                 <span
                   className={`px-2 py-1 rounded-md text-xs font-medium ${
                     proj.category === "Full Stack"
@@ -350,7 +350,7 @@ function Projects() {
                 {proj.year && (
                   <span className="text-xs text-gray-500">{proj.year}</span>
                 )}
-              </div>
+              </div> */}
             </div>
           </div>
 
