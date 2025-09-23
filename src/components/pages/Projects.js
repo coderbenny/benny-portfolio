@@ -22,7 +22,7 @@ function Projects() {
       live_link: "https://qejav2.vercel.app",
       description:
         "Professional house hunting platform that connects clients with verified agents. Features automated agent matching, secure payments, and guaranteed results within 48 hours.",
-      category: "Full Stack",
+      category: "Frontend",
       technologies: [
         "Next.js",
         "React",
@@ -30,7 +30,7 @@ function Projects() {
         "Tailwind CSS",
         "Framer Motion",
       ],
-      featured: true,
+      featured: false,
       year: "2025",
     },
     {
@@ -40,9 +40,9 @@ function Projects() {
       live_link: "https://repairhub.co.ke",
       description:
         "Professional repair services platform offering expert technicians at your fingertips. Responsive design built with modern web technologies.",
-      category: "Frontend",
+      category: "Full Stack",
       technologies: ["Next.js", "Tailwind CSS"],
-      featured: false,
+      featured: true,
       year: "2025",
     },
     {
@@ -64,13 +64,25 @@ function Projects() {
       live_link: "https://crypto-mu-sandy.vercel.app/",
       description:
         "Sleek crypto trading platform with real-time price tracking, market analysis, and interactive UI powered by modern animations.",
-      category: "Frontend",
+      category: "Full Stack",
       technologies: ["Next.js", "Redux Toolkit", "AOS", "Tsparticles"],
-      featured: false,
+      featured: true,
       year: "2025",
     },
     {
       id: 5,
+      title: "Playzone Ke",
+      image: "/pzone2.png",
+      live_link: "https://playzoneke.vercel.app/",
+      description:
+        "Ultimate gaming booking platform for purchasing bundled game plays with exclusive bonuses and discounts for various activities.",
+      category: "Frontend",
+      technologies: ["Next.js", "Tailwind CSS", "Redux"],
+      featured: true,
+      year: "2025",
+    },
+    {
+      id: 6,
       title: "Ogtransfer",
       image: "/og.png",
       live_link: "https://ogtransfer.vercel.app",
@@ -78,18 +90,6 @@ function Projects() {
         "Secure file transfer platform enabling users to send large files up to 200GB with enterprise-grade security and encryption.",
       category: "Full Stack",
       technologies: ["Next.js", "File Upload", "Security"],
-      featured: true,
-      year: "2025",
-    },
-    {
-      id: 6,
-      title: "Playzone Ke",
-      image: "/playzone.png",
-      live_link: "https://playzoneke.vercel.app/",
-      description:
-        "Ultimate gaming booking platform for purchasing bundled game plays with exclusive bonuses and discounts for various activities.",
-      category: "Frontend",
-      technologies: ["Next.js", "Tailwind CSS", "Redux"],
       featured: false,
       year: "2025",
     },
