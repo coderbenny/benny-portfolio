@@ -5,27 +5,34 @@ function Referees() {
   const refs = [
     {
       id: 1,
+      name: "Sam Inchwara",
+      contact: "inchwara@zuri.health",
+      title: "Head of Telco & VAS",
+      company: "Zuri Health",
+    },
+    {
+      id: 2,
       name: "Julius Mwangi",
       contact: "Juliusmwangi@moringaschool.com",
       title: "Technical Mentor/ Trainer",
       company: "Moringa School",
     },
     {
-      id: 2,
+      id: 3,
       name: "Mohammed Jeneby",
       contact: "Mohammed@thinktank.co.ke",
       title: "Chief Executive Officer",
       company: "Al Huda TV Kenya",
     },
     {
-      id: 3,
+      id: 4,
       name: "Steve Okello",
       title: "Head of Studio Technical Operations",
       company: "Switch TV Kenya",
       contact: "Available upon request",
     },
     {
-      id: 4,
+      id: 5,
       name: "Jackline Obiero",
       title: "Head of Assignment Desk/Internship Program",
       company: "Africa 24 Media",
