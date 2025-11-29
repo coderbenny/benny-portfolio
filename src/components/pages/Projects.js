@@ -17,6 +17,24 @@ function Projects() {
   const projects = [
     {
       id: 1,
+      title: "Moon Studios - House Hunting Platform",
+      image: "moon.png",
+      live_link: "https://moonstudios.vercel.app",
+      description:
+        "Your premier destination for high-quality beats, studio sessions, and music contests.",
+      category: "Frontend",
+      technologies: [
+        "Next.js",
+        "React",
+        "Firebase",
+        "Tailwind CSS",
+        "Daisy UI",
+      ],
+      featured: false,
+      year: "2025",
+    },
+    {
+      id: 2,
       title: "Qeja2.0 - House Hunting Platform",
       image: "/qeja2.0.png",
       live_link: "https://qejav2.vercel.app",
@@ -34,7 +52,7 @@ function Projects() {
       year: "2025",
     },
     {
-      id: 2,
+      id: 3,
       title: "RepairHub",
       image: "/repairhub.png",
       live_link: "https://repairhub.co.ke",
@@ -46,7 +64,7 @@ function Projects() {
       year: "2025",
     },
     {
-      id: 3,
+      id: 4,
       title: "Gemify Africa",
       image: "/gemafrica.png",
       live_link: "https://gemify.africa/",
@@ -58,7 +76,7 @@ function Projects() {
       year: "2025",
     },
     {
-      id: 4,
+      id: 5,
       title: "Arbitredge",
       image: "/arbitredge.png",
       live_link: "https://crypto-mu-sandy.vercel.app/",
@@ -70,7 +88,7 @@ function Projects() {
       year: "2025",
     },
     {
-      id: 5,
+      id: 6,
       title: "Playzone Ke",
       image: "/pzone2.png",
       live_link: "https://playzoneke.vercel.app/",
@@ -82,7 +100,7 @@ function Projects() {
       year: "2025",
     },
     {
-      id: 6,
+      id: 7,
       title: "Ogtransfer",
       image: "/og.png",
       live_link: "https://ogtransfer.vercel.app",
@@ -94,7 +112,7 @@ function Projects() {
       year: "2025",
     },
     {
-      id: 7,
+      id: 8,
       title: "Crypto Tracker Extension",
       image: "/xtension.png",
       live_link: "https://github.com/coderbenny/crypto-tracker-chrome-xtension",
@@ -106,7 +124,7 @@ function Projects() {
       year: "2024",
     },
     {
-      id: 8,
+      id: 9,
       title: "Church Website",
       image: "/ch.png",
       live_link: "https://rescuesouls.org",
@@ -118,7 +136,7 @@ function Projects() {
       year: "2024",
     },
     {
-      id: 9,
+      id: 10,
       title: "Talent Nation",
       image: "/tnation.png",
       live_link: "https://talentnation.vercel.app/",
@@ -130,7 +148,7 @@ function Projects() {
       year: "2024",
     },
     {
-      id: 10,
+      id: 11,
       title: "Qeja",
       image: "/qeja.PNG",
       live_link: "https://qeja-frontend.vercel.app",
@@ -141,7 +159,7 @@ function Projects() {
       year: "2024",
     },
     {
-      id: 11,
+      id: 12,
       title: "Django Store API",
       image: "/django-store-api.png",
       live_link: "https://django-store-api.onrender.com/",
@@ -153,7 +171,7 @@ function Projects() {
       year: "2024",
     },
     {
-      id: 12,
+      id: 13,
       title: "Ticketpal",
       image: "/tnew.png",
       live_link: "https://ticketpal.vercel.app/",
@@ -165,7 +183,7 @@ function Projects() {
       year: "2024",
     },
     {
-      id: 13,
+      id: 14,
       title: "Media & Marketing Consultancy",
       image: "/fc.png",
       live_link: "https://fullcircleworldwide.vercel.app/",
@@ -177,7 +195,7 @@ function Projects() {
       year: "2024",
     },
     {
-      id: 14,
+      id: 15,
       title: "Shoes Marketplace",
       image: "/cover.png",
       live_link: "https://shoed.vercel.app/",
@@ -189,7 +207,7 @@ function Projects() {
       year: "2024",
     },
     {
-      id: 15,
+      id: 16,
       title: "Maleek Visuals",
       image: "/maleek.PNG",
       description:
@@ -201,7 +219,7 @@ function Projects() {
       year: "2023",
     },
     {
-      id: 16,
+      id: 17,
       title: "Lorna's Cakes & Bakes",
       image: "/cakes.png",
       description:
@@ -213,7 +231,7 @@ function Projects() {
       year: "2023",
     },
     {
-      id: 17,
+      id: 18,
       title: "Hotel Inizio",
       image: "/inizio.PNG",
       description:
