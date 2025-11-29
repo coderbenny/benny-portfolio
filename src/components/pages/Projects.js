@@ -17,7 +17,7 @@ function Projects() {
   const projects = [
     {
       id: 1,
-      title: "Moon Studios - House Hunting Platform",
+      title: "Moon Studios - Music Studio Website",
       image: "moon.png",
       live_link: "https://moonstudios.vercel.app",
       description:
